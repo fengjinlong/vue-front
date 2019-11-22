@@ -17,7 +17,7 @@ export default {
     }
   },
   created() {
-    axios.get('http://localhost:3000/api').then(res => {
+    axios.get('/api').then(res => {
       this.data = res.data
     }) 
   }
