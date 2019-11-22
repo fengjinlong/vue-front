@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div>1</div>
+    <div>11</div>
     <ul>
       <li v-for="(ele, i) in data" :key="i">{{ele.name}}</li>
     </ul>
