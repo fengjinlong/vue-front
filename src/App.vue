@@ -2,7 +2,8 @@
   <div id="app">
     <div>🌶</div>
     <ul>
-      <li v-for="(ele, i) in data" :key="i">{{ele.name}}</li>
+      
+      <li v-for="(ele, i) in data" :key="i">{{ele.id}}--{{ele.name}}</li>
     </ul>
   </div>
 </template>
